@@ -1,0 +1,22 @@
+/*.jumbotron {
+	background-image: url(sky_bg.jpg);
+	background-size: contain;
+}*/
+
+.navbar {
+	background-color: transparent;
+	background: transparent;
+}
+
+ body {
+ 	background-image: url(hd_sky_bg.jpg);
+	background-size: cover;
+	background-position: left auto;
+ }
+ .jumbotron {
+ 	background-color: transparent;
+	background: transparent;
+ }
+ div ul li a {
+ 	font-weight: bold;
+ }
