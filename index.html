@@ -13,8 +13,8 @@
   </head>
   <body>
     <!-- Navbar -->
-      <nav class="navbar">
-        <div class="container ml-0">
+      <nav class="navbar navbar-fixed-top">
+        <div class="container">
         <ul class="nav navbar-nav">
           <li class="nav-item">
             <a class="nav-link text-muted" href="#">Home <span class="sr-only">(current)</span></a>
@@ -32,11 +32,9 @@
             <a class="nav-link text-muted" href="#">Work History</a>
           </li>
         </ul>
-          <div class="container">
               <a class="navbar-brand float-sm-right hidden-sm-down mx-1" href="http://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true"></i></a>
               <a class="navbar-brand float-sm-right hidden-sm-down mx-1" href="http://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
               <a class="navbar-brand float-sm-right hidden-sm-down mx-1" href="http://www.google.com"><i class="fa fa-google-plus" aria-hidden="true"></i></a>
-            </div>
         </div>
       </nav>
     <!-- /Navbar -->
@@ -46,10 +44,76 @@
       <h1 class="display-4 text-muted">Robert John Dubiel</h1>
       <p class="lead">Writer - Producer - Director.</p>
       <p class="lead mt-3">
-        <a class="btn btn-primary btn-lg" href="#" role="button">Request writing samples</a>
+        <a class="btn btn-primary btn-lg" href="#" role="button" data-toggle="modal" data-target="#registration_modal">Request writing samples</a>
       </p>
-
     </div>
+
+    <!-- About -->
+      <div class="container">
+      <div class="row">
+          <div class="col-xs-12 col-md-4">
+            <h1>Silk Road</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam nec turpis eleifend, venenatis mi sed, sagittis nibh. Quisque vel fermentum nibh. Praesent iaculis, lacus et ullamcorper mattis, tortor metus porta metus, a venenatis nulla nisl ut sem. Vestibulum dignissim fermentum diam, congue condimentum turpis dapibus sit amet. Etiam ut purus porttitor, iaculis ex et, vestibulum nisi. Curabitur aliquet luctus consequat. Etiam scelerisque purus augue, ac facilisis ipsum consectetur vitae. Proin ac porttitor nulla. Duis ac arcu lacus. Vestibulum elit ligula, dignissim vitae nisl eget, sagittis consectetur massa. Donec tincidunt, nunc ac fringilla faucibus, sem tellus convallis dolor, quis dictum erat nisl quis massa. Ut tincidunt malesuada purus ut mattis. Sed nec sagittis dolor, vitae dapibus elit.</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h1>Seventh Ward</h1>
+            <p>Curabitur sapien velit, lacinia eu aliquet feugiat, pretium ut sem. Integer lacinia a mauris id feugiat. Aliquam erat volutpat. Mauris eleifend ornare lectus, a fringilla sapien gravida at. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras volutpat auctor enim, ut aliquam odio pharetra sit amet. Nam eget urna at mauris pharetra lacinia. Praesent metus velit, consequat nec neque eget, eleifend hendrerit mauris.</p>
+          </div>
+          <div class="col-xs-12 col-md-4">
+            <h1>Future projects...</h1>
+            <p>Integer ac massa et sapien imperdiet fermentum at at orci. Nulla pharetra sodales enim, in gravida arcu iaculis sit amet. Sed hendrerit leo a metus fringilla, vitae bibendum enim porta. Praesent et mi elit. Pellentesque arcu odio, imperdiet et odio non, efficitur congue mi. Donec laoreet in dui ac porttitor. Vivamus consectetur velit sapien, vel tristique lectus scelerisque ac. Nulla consequat ut felis nec laoreet. Donec purus dolor, ultrices non tellus at, tempus gravida odio. Nulla facilisi. Etiam tristique in nunc quis semper. Integer porttitor justo dui, sit amet bibendum risus condimentum vitae. Aenean eu purus ante. Praesent urna enim, aliquet eu semper a, laoreet sed purus. Nunc massa risus, placerat vel convallis eget, ultricies ornare ex.</p>
+          </div>
+        </div>
+      </div>
+    <!-- /About -->
+
+    <!-- Footer -->
+      <h2>Robert Dubiel   (708)256-5085   robertjohndubiel@gmail.com</h2>
+    <!-- /Footer -->
+
+    <!-- Modal Registration Window -->
+
+      <div class="modal fade" id="registration_modal">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+              <h4 class="modal-title">Sign up to read samples</h4>
+            </div>
+            <div class="modal-body">
+              <!-- form  -->
+                <form>
+                  <div class="form-group">
+                    <label for="first_name">First Name</label>
+                    <input type="text" class="form-control" id="first_name" placeholder="First Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="last_name">Last Name</label>
+                    <input type="text" class="form-control" id="last_name" placeholder="Last Name">
+                  </div>
+                  <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="text" class="form-control" id="email" placeholder="Email">
+                  </div>
+                  <div class="form-group">
+                    <label for="confirm_email">Confirm Email</label>
+                    <input type="text" class="form-control" id="confirm_email" placeholder="confirm_email">
+                  </div>
+                </form>
+
+              <!-- /form -->
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Send</button>
+            </div>
+          </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+      </div><!-- /.modal -->
+
+    <!-- /Modal Registration Window -->
 
     
 
