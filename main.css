@@ -24,4 +24,10 @@
  .modal-content {
  	background-color: grey;
  }
+ .footer h2 {
+ 	text-align: center;
+ }
 
+.wrapper {
+	min-height: calc(100vh - 105px);
+}
